@@ -1,0 +1,20 @@
+.jumbotron {
+
+	background-color: orange;
+	color:purple;
+	margin-top: 30px;
+
+}
+
+
+.toptext {
+	color:red;
+}
+
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1580298321240-43ae28e4dfa0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  
+  align-content: center;
+}

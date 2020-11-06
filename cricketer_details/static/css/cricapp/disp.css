@@ -1,0 +1,21 @@
+table{
+
+	color:blue;
+	font-size: 50px;
+	background-color: green;
+}
+h1{
+	color:purple;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1580196923666-a197abb073ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=698&q=80");
+  background-repeat: no-repeat;
+  
+  align-content: center;
+}
+}
+th{
+	color:red;
+	font-size: 30px
+}
+

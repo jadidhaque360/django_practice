@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title align="center">cricketer details</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/cricapp/disp.css' %}">
+</head>
+<body>
+	<h1 align="center">Cricketer details</h1>
+	{% if emp_list	%}
+		<table border="10" align="center">
+			<tr>
+				<th>name</th>
+				<th>age</th>
+				<th>department</th>
+			</tr>
+			{% for emp in emp_list %}
+				<tr>
+					<td>{{emp.name}}</td>
+					<td>{{emp.age}}</td>
+					<td>{{emp.department}}</td>
+				</tr>
+			{% endfor %}
+		</table>
+	{% else %}
+		<h1>No data to display</h1>
+	{% endif %}
+</body>
+</html>
+

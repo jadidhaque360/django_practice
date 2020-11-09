@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+	<title>Input Page</title>
+	<link rel="stylesheet" type="text/css" href="{% static "css/employeeformapp/display.css" %}">
+</head>
+<body>
+	<form method="POST">
+		<div align="center">
+			{{ emp_form.as_p }}
+			{% csrf_token %}
+		<input type="submit" name="register">
+		</div>
+		
+	</form>
+
+</body>
+</html>

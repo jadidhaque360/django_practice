@@ -1,4 +1,4 @@
-"""cricketer_details URL Configuration
+"""employeeformproject URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -15,10 +15,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from cricapp import views
+from employeeformapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cricapp/', views.select_record),
-    path('homepage/', views.home_page),
+    path('homepage/',views.home_page),
+    path('insertpage/',views.insert_details_page),
+    path('register/',views.insert_records),
+    path('select/',views.select_records),
+    
+    
 ]

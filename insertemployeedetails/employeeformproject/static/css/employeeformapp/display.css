@@ -1,0 +1,31 @@
+h1{
+	color: navy;
+	font-size: 60px;
+}
+
+th{
+	background: green;
+	font-size: 50px;
+}
+
+td{
+	background: purple;
+	font-size: 30px;
+}
+
+table{
+	background: black;
+	font-size: 50px;
+}
+
+body,
+html{
+	min-height: 100%;
+}
+
+body{
+	background: url(https://images.unsplash.com/photo-1527192491265-7e15c55b1ed2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+

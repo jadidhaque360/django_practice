@@ -7,7 +7,10 @@ First app-
         $python manage.py makemigrations
 
     Html files along with css files have been used to display the items of the database
+    
     relevent urls-
+    http://127.0.0.1:8000/homepage
+    http://127.0.0.1:8000/cricapp
     
 
 Second app - 

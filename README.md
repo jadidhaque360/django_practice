@@ -7,6 +7,8 @@ First app-
         $python manage.py makemigrations
 
     Html files along with css files have been used to display the items of the database
+    relevent urls-
+    
 
 Second app - 
     Created databse of employee, similar to above project with the exception we can insert data and check out the same
@@ -22,6 +24,6 @@ Second app -
     http://127.0.0.1:8000/homepage
     http://127.0.0.1:8000/insertpage
     http://127.0.0.1:8000/register
-    http://127.0.0.1:8000/display
+    http://127.0.0.1:8000/select
     
     
